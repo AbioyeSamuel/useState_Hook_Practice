@@ -15,3 +15,7 @@ ReactDOM.render(<App />, document.getElementById("root"));
 //Can you get the time in your <h1> to update every second?
 
 //e.g. uncomment the code below to see Hey printed every second.
+// function sayHi() {
+//   console.log("Hey");
+// }
+//
