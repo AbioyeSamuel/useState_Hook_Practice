@@ -8,6 +8,10 @@ function App() {
     console.log(time);
     setCurrentTime(time);
   }
+  function sayHi() {
+    console.log("Hey");
+  }
+  setInterval(sayHi, 1000);
   return (
     <div className="container">
       <h1>{currentTime}</h1>
